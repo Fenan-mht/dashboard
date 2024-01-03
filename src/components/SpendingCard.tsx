@@ -4,10 +4,9 @@ import user from "../assets/user.jpg";
 interface SpendingListProps {
   name: string;
   date: string;
-  money: string;
 }
 
-const SpendingList = ({ name, date, money }: SpendingListProps) => (
+const SpendingList = ({ name, date }: SpendingListProps) => (
   <div className="flex flex-row justify-between  px-3 py-5">
     <div className="flex flex-row gap-3">
       <img src={user} alt="" className="w-10 h-10 rounded-full" />
@@ -29,23 +28,14 @@ const SpendingCard = () => {
         </button>
       </div>
       <div>
-        <SpendingList
-          name={"Online Store"}
-          date={"May 10, 2023 at 20;00"}
-          money={""}
-        />
+        <SpendingList name={"Online Store"} date={"May 10, 2023 at 20;00"} />
         <hr />
         <SpendingList
           name={"Pay the hospital"}
           date={"May 10, 2023 at 20;00"}
-          money={""}
         />
         <hr />
-        <SpendingList
-          name={"Tickets"}
-          date={"May 10, 2023 at 20;00"}
-          money={""}
-        />
+        <SpendingList name={"Tickets"} date={"May 10, 2023 at 20;00"} />
       </div>
       <div className="flex items-center justify-center">
         <button className="text-[#545cd4] flex flex-row">

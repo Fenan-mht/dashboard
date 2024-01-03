@@ -1,4 +1,3 @@
-import MaterialIcon from "./components/MaterialIcon";
 import Dashboard from "./pages/Dashboard";
 
 function App() {

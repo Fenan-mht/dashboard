@@ -1,6 +1,5 @@
 import MaterialIcon from "./MaterialIcon";
 import coin from "../assets/coin.jpg";
-import graph from "../assets/graph.png";
 import linechart from "../assets/linechart.png";
 import barchart from "../assets/barchart.png";
 
